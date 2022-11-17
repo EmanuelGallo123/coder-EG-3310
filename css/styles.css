@@ -1,0 +1,181 @@
+
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace 'Franklin Gothic Medium', 'Arial Narrow'
+    , Arial, sans-serif;
+}
+
+
+body{
+    background-image: url(../assets/imagenes/box\ 1440x1024.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+h1{
+
+   color: rgb(238, 253, 28);
+   font-family:'Serigrafía'; 
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-family:'Serigrafía'; 
+ }
+body p {
+    color: white;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+}
+
+.centrarTexto{
+    text-align: center;
+}
+
+.marginBotton{
+    margin-bottom: 50px;
+}
+.marginTop{
+    margin-top: 50px;
+}
+
+.fondoWhite{
+    background-color: rgb(255, 255, 255);
+}
+
+.Aqua{
+    color: rgb(28, 226, 240);
+}
+
+.white{
+    color: rgb(255, 255, 255);
+}
+.yellowText{
+    color: yellow;
+}
+
+.fondoNaranjita{
+    background-color: #fc501bbe;
+}
+.letraAzul{
+    color:#1259B3;
+}
+
+.letraTitulo{
+    color: rgb(224, 247, 25);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 5rem;
+    font-style: italic;
+    text-align:center;
+}
+
+.caja{
+text-align: center;
+padding: 5px;
+}
+
+
+.caja img{
+    width: 30%;
+}
+
+.paddingBottom{
+    padding-bottom: 30px;
+}
+
+.centrarImg{
+    margin: 0px auto;
+    width: 30%;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    padding-left: 20px;
+}
+.header .logo img:hover{
+    transform: scale(1.6);
+}
+.header .navLinks{
+    list-style:none;
+}
+
+.header .navLinks a{
+    text-decoration: none;
+    color: rgb(214, 247, 28);
+    text-align: center;
+    padding-left: 20px;
+}
+
+.centerPadding{
+    text-align: center;
+    padding: 30px;
+}
+.centerPadding div img{
+    width: 20%;
+}
+
+.stylenone{
+    list-style: none;
+}
+.letraGrande{
+    font-size: 25px;
+}
+
+/* footer empieza aca*/
+
+footer{
+    width: 100%;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.596)),
+    url(../assets/imagenes/box-nueva-entrenando8.jpg);
+    background-size: contain;
+    background-repeat:repeat;
+}
+
+.box__footer{
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+.box__footer .logo img{
+    width: 50px;
+    margin-bottom: 10px;
+
+}
+.box__footer .logo p{
+    font-size:small;
+    color: rgb(255, 240, 25);
+    margin-bottom: 10px;
+
+}
+
+.box__footer h2{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(251, 255, 30);
+}
+
+.box__footer a{
+    color:rgb(49, 255, 203);
+    font-size: 20px;  
+    text-decoration:solid,1px;
+    padding: 10px;
+}
+
+.box__copy{
+    text-align: center;
+    margin-top: 15px;
+}
+.box__copy p{
+    color: rgb(240, 255, 25);
+}
+
+
