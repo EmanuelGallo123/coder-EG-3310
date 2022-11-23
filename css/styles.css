@@ -1,29 +1,27 @@
-
-*{
-    margin:  0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:monospace 'Franklin Gothic Medium', 'Arial Narrow'
-    , Arial, sans-serif;
+    font-family: monospace 'Franklin Gothic Medium', 'Arial Narrow'
+        , Arial, sans-serif;
 }
 
 
-body{
-    background-image: url(../assets/imagenes/box\ 1440x1024.jpg);
+body {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.411)),
+        url(../assets/imagenes/box\ 1440x1024.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
 }
 
-h1{
 
-   color: rgb(238, 253, 28);
-   font-family:'Serigrafía'; 
-}
-h3{
+h3 {
     color: rgb(255, 255, 255);
-    font-family:'Serigrafía'; 
- }
+    font-family: 'Serigrafía';
+}
+
 body p {
     color: white;
 }
@@ -32,150 +30,94 @@ footer p {
     color: rgb(255, 255, 255);
 }
 
-.centrarTexto{
+
+.centrarTexto {
     text-align: center;
 }
 
-.marginBotton{
-    margin-bottom: 50px;
-}
-.marginTop{
-    margin-top: 50px;
+.alinearTexto {
+    justify-content: center;
+    align-items: center;
 }
 
-.fondoWhite{
+.fondoWhite {
     background-color: rgb(255, 255, 255);
 }
 
-.Aqua{
-    color: rgb(28, 226, 240);
+.YellowText {
+    color: rgb(232, 255, 21);
 }
 
-.white{
+.white {
     color: rgb(255, 255, 255);
-}
-.yellowText{
-    color: yellow;
+
 }
 
-.fondoNaranjita{
+.black {
+    color: black;
+}
+
+.fondoCards {
+    background-color: #fc4f1b;
+}
+
+.letraNaranjita {
+    color: #fc501bbe;
+}
+
+.fondoNaranjita {
     background-color: #fc501bbe;
 }
-.letraAzul{
-    color:#1259B3;
-}
 
-.letraTitulo{
-    color: rgb(224, 247, 25);
+.letraTitulo {
+    color: #fc501bbe;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
     font-size: 5rem;
     font-style: italic;
-    text-align:center;
-}
-
-.caja{
-text-align: center;
-padding: 5px;
-}
-
-
-.caja img{
-    width: 30%;
-}
-
-.paddingBottom{
-    padding-bottom: 30px;
-}
-
-.centrarImg{
-    margin: 0px auto;
-    width: 30%;
-}
-
-.header .logo img{
-    height: 70px;
-    width: auto;
-    transition: all 0.3s;
-    padding-left: 20px;
-}
-.header .logo img:hover{
-    transform: scale(1.6);
-}
-.header .navLinks{
-    list-style:none;
-}
-
-.header .navLinks a{
-    text-decoration: none;
-    color: rgb(214, 247, 28);
     text-align: center;
-    padding-left: 20px;
 }
 
-.centerPadding{
-    text-align: center;
-    padding: 30px;
-}
-.centerPadding div img{
-    width: 20%;
-}
-
-.stylenone{
+.stylenone {
     list-style: none;
-}
-.letraGrande{
-    font-size: 25px;
+    text-decoration: none;
 }
 
-/* footer empieza aca*/
-
-footer{
+.footerFondo {
     width: 100%;
-    background: linear-gradient(to right,rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.596)),
-    url(../assets/imagenes/box-nueva-entrenando8.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.692),
+            rgba(0, 0, 0, 0.596)),
+        url(../assets/imagenes/box-nueva-entrenando8.jpg);
     background-size: contain;
-    background-repeat:repeat;
+    background-repeat: repeat;
 }
 
-.box__footer{
-    padding-left: 20px;
-    text-align: center;
+.fabrandColor {
+
+    color: rgb(255, 155, 24);
 }
 
-
-.box__footer .logo img{
-    width: 50px;
-    margin-bottom: 10px;
-
-}
-.box__footer .logo p{
-    font-size:small;
-    color: rgb(255, 240, 25);
-    margin-bottom: 10px;
-
+.filtro {
+    filter: brightness(75%);
 }
 
-.box__footer h2{
-    margin-bottom: 10px;
-    margin-top: 20px;
-    font-size: 20px;
-    color: rgb(251, 255, 30);
+.cover {
+    object-fit: cover;
 }
 
-.box__footer a{
-    color:rgb(49, 255, 203);
-    font-size: 20px;  
-    text-decoration:solid,1px;
-    padding: 10px;
+.divVideo {
+
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+    filter: brightness(50%);
+
 }
 
-.box__copy{
-    text-align: center;
-    margin-top: 15px;
+.bordeSito {
+    border-style: solid;
 }
-.box__copy p{
-    color: rgb(240, 255, 25);
-}
-
-

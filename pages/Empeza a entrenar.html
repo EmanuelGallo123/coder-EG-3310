@@ -5,181 +5,220 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Empeza a entrenar</title>
+	<title>Boxeo Quilmes</title>
 	<link rel="Icon" href="../assets/imagenes/logo.jpg">
 	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/imagehover.min.css">
+	<link rel="stylesheet" href="../js/bootstrap.bundle.min.js">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/412d1c795a.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+</head>
 
 </head>
 
 <body>
 
-	<div>
-		<header class="header">
-			<div class="logo">
-				<a href="../index.html"><img src="../assets/imagenes/logo.jpg" alt="Logo" width="100"></a>
-			</div>
-			<div>
-				<nav>
-					<ul class="navLinks">
-						<li> <a href="../index.html"><b>Inicio</a></b> </li>
-						<li> <a href="../pages/Instructivos.html"><b>Instructivos</a></b></li>
-						<li> <a href="../pages/Tienda.html"><b>Tienda</a></b> </li>
-						<li> <a href="../pages/Nosotros.html"> <b>Nosotros</a> </b> </li>
-						<li> <a href="../pages/Empeza a entrenar.html"> <b>Empeza a entrenar</a></b> </li>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light fondoNaranjita">
+			<div class="container-fluid">
+				<a class="navbar-brand " href="./index.html">
+					<nav class="navbar navbar-light ">
+						<div class="container-fluid">
+							<a class="navbar-brand" href="../index.html">
+								<img src="../assets/imagenes/logo.jpg" alt="" width="50" height="50"
+									class="d-inline-block align-text-top">
+								Boxeo Quilmes
+							</a>
+						</div>
+					</nav>
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse " id="navbarNav">
+					<ul class="navbar-nav black justify-content-around w-100">
+						<li class="nav-item">
+							<a class="nav-link" href="./Tienda.html">
+								<p class="black"> Tienda </p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./Nosotros.html">
+								<p class="black"> Nosotros </p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./Instructivos.html">
+								<p class="black"> Instructivos </p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./Empeza a entrenar.html">
+								<p class="black"> Empeza a entrenar </p>
+							</a>
+						</li>
+
 					</ul>
-				</nav>
+				</div>
 			</div>
-	</div>
+		</nav>
+
 	</header>
 
 	<main>
-		<h3> Empeza a entrenar en casa con este video.</h3>
-		<br>
-		<iframe width="450" height="350" src="https://www.youtube.com/embed/6wPS2BVQx38" title="YouTube video player"
-			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-			allowfullscreen></iframe>
 
-		<section>
-			<h3>Anotate a continuacion para entrenar en cualquiera de nuestros gymnasios:</h3>
-			<br>
-		</section>
-		<section>
-			<div>
-				<form>
-					<fieldset class="white">
-						<br>
-						<legend>Ingrese los siguientes Datos:</legend>
-						<div>
-							<label for="nombre"> Nombre Completo: </label>
-							<input type="text" placeholder="tu nombre completo*" required>
+
+		<main>
+			<section>
+				<div class="container text-center my-3">
+					<h1 class="letraTitulo animate__animated animate__rollIn">Empeza a entrenar</h1>
+				</div>
+				<div>
+					<h3 class="text-center my-3">¿Ya sabes por dónde quieres empezar? </h3>
+					<p class="text-center my-3"> Explícanos qué quieres
+						hacer, danos tus datos personales, resuelve tus dudas y ven. ¡Te estamos esperando!</p>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+				<form class="row g-3">
+					<div class="col-md-6">
+					  <label for="inputtext" class="form-label">Tu nombre completo</label>
+					  <input type="text" class="form-control" id="inputtext">
+					</div>
+					<div class="col-md-6">
+					  <label for="inputEmail4" class="form-label">Tu Email</label>
+					  <input type="email" class="form-control" id="inputEmail4">
+					</div>
+					<div class="col-12">
+					  <label for="inputAddress" class="form-label">Tu Direccion</label>
+					  <input type="text" class="form-control" id="inputAddress" placeholder="calle y numero">
+					</div>
+					<div class="col-6">
+					  <label for="inputDNI" class="form-label">Tu DNI</label>
+					  <input type="number" class="form-control" id="inputDNI" placeholder="DNI">
+					</div>
+					<div class="col-6">
+						<label for="inputPeso" class="form-label">Tu Peso</label>
+						<input type="number" class="form-control" id="inputPeso" placeholder="KG">
+					  </div>
+					<div class="col-md-6">
+					  <label for="inputCity" class="form-label">Cuidad</label>
+					  <input type="text" class="form-control" id="inputCity">
+					</div>
+					<div class="col-md-6">
+					  <label for="inputState" class="form-label">Donde queres entrenar?</label>
+					  <select id="inputState" class="form-select">
+						<option selected>Elegi tu gym</option>
+						<option>Gymnasio en quilmes oeste</option>
+						<option>Gymnasio en quilmes centro</option>
+						<option>Gymnasio en quilmes este</option>
+					  </select>
+					</div>
+					<div class="col-12">
+					  <div class="form-check">
+						<input class="form-check-input" type="checkbox" id="gridCheck">
+						<label class="form-check-label" for="gridCheck">
+						 Confirmar Datos
+						</label>
+					  </div>
+					</div>
+					<div class="col-12">
+					  <button type="submit" class="btn btn-primary">Enviar</button>
+					</div>
+				  </form>
+				</div>
+			</section>
+
+
+		</main>
+
+		<hr class="white">
+
+		<<footer>
+			<div class="container">
+	
+				<div class="row mt-5  text-white">
+	
+					<div class="col-xs-12 col-md-12 col-lg-4">
+						<div class="container">
+							<a class="navbar-brand" href="../index.html">
+								<img src="../assets/imagenes/logo.jpg" alt="" width="100" height="100">
+							</a>
 						</div>
-						<br>
-						<div>
-							<label for="Numero de telefono"> Numero de telefono: </label>
-							<input type="number" placeholder="tu numero de telefono*" required>
+					
+						<h3 class="letraNaranjita"> Boxeo Quilmes</h3>
+						<p class="letraNaranjita">Buenos Aires,Quilmes </p>
+						<p class="letraNaranjita">BoxeoQuilmes@hotmail.com </p>
+					
+					</div>
+	
+					<div class="col-xs-12 col-md-6 col-lg-4">
+						<h5 class="animate__animated animate__headShake animate__infinite mb-4 letraNaranjita">Nuestro Gymnasio
+						</h5>
+						<div class="mb-2">
+							<a class="text-white text-decoration-none" href="../index.html">
+								<i class="fa-solid fa-house fabrandColor"></i> Principal </a>
 						</div>
-						<br>
-						<div>
-							<label for="Email"> Email: </label>
-							<input type="email" placeholder="Email completo*" name="email" required>
-
+						<div class="mb-2">
+							<a class="text-white text-decoration-none" href="./Tienda.html">
+								<i class="fa-solid fa-shop fabrandColor"></i> Tienda </a>
 						</div>
-						<br>
-
-						<div>
-							<label for="fnac">Fecha de Nacimiento:</label>
-							<input id="fnac" name="fecha_nac" type="date" required>
+						<div class="mb-2">
+							<a class="text-white text-decoration-none" href="./Instructivos.html">
+								<i class="fa-solid fa-crown fabrandColor"></i> Instructivos </a>
 						</div>
-						<br>
-
-						<div>
-							<label for="tu edad"> Ingrese su edad:</label>
-							<input type="number" placeholder=" tu edad*" required>
-							<br>
-
+						<div class="mb-2">
+							<a class="text-white text-decoration-none" href="./Empeza a entrenar.html">
+								<i class="fa-solid fa-trophy fabrandColor"></i> Empeza a entrenar </a>
 						</div>
-						<br>
-						<div>
-							<label for="Observaciones"> Si tenes alguna dificultad o inconveniente describilo aqui:
-							</label>
-							<br>
-							<input type="text" placeholder="tu dificultad ">
-
+						<div class="mb-5">
+							<a class="text-white text-decoration-none" href="./Nosotros.html">
+								<i class="fa-solid fa-heart fabrandColor"></i> Nosotros </a>
 						</div>
-						<br>
-
-					</fieldset>
-
-					<fieldset class="white">
-						<div>
-							<p>Para el boxeo es muy importante saber cual es tu mano mas habil al golpear:</p>
-							<div>Soy zurdo
-								<input type="radio" name="lado" value="izquierda" required>
-
-								Soy Derecho
-								<input type="radio" name="lado" value="derecha" required>
-							</div>
-					</fieldset>
-
-					<fieldset class="white">
-						<div>
-							<p>En cual de nuestros gym te gustaria entrenar?</p>
-							<select name="gymnasios" id="gymnasios">
-								<option value="Quilmes centro">Quilmes Centro</option>
-								<option value="Quilmes Oeste">Quilmes Oeste</option>
-								<option value="Quilmes Este">Quilmes Este</option>
-							</select>
+	
+					</div>
+	
+					<div class="col-xs-12 col-md-6 col-lg-4">
+						<h5 class="animate__animated animate__headShake animate__infinite mb-4 letraNaranjita">Redes Sociales
+						</h5>
+						<div class="mb-2">
+							<a class="text-white text-decoration-none " href="https://facebook.com" target="_blank">
+								<i class="fa-brands fa-square-facebook fabrandColor"></i> Facebook</a>
 						</div>
-
-						<div>
-							<p>Dias</p>
-							<select name="Dias" id="Dias">
-								<option value="Lunes, Miercoles y Viernes ">Lunes, Miercoles y Viernes (clasico)
-								</option>
-								<option value="Lunes a Viernes (intensivo)">Lunes a Viernes (intensivo)</option>
-								<option value="Martes y Jueves (liviano)">Martes y Jueves (liviano)</option>
-							</select>
+						<div class="mb-2">
+							<a class="text-white text-decoration-none" href="https://instagram.com" target="_blank">
+								<i class="fa-brands fa-instagram fabrandColor"></i> Instagram </a>
 						</div>
-
-						<div>
-							<p>Horarios</p>
-
-							de: <input id="hnac" name="hora_nac" type="time" required> a:
-							<input id="hnac" name="hora_nac" type="time" required>
-							recorda que nuestras clases duran 1 hs.
+						<div class="mb-2">
+							<a class="text-white text-decoration-none" href="https://youtube.com" target="_blank">
+								<i class="fa-brands fa-youtube fabrandColor"></i> Youtube</a>
 						</div>
-
-					</fieldset>
-					<br>
-					<section class="white">
-						<div> Queres recibir info sobre nosotros a tu mail y a tu whatsapp?
-							<input type="checkbox" name="acepta" value="1">
+						<div class="mb-5">
+							<a class="text-white text-decoration-none" href="https://web.whatsapp.com" target="_blank">
+								<i class="fa-brands fa-whatsapp fabrandColor"></i> WhatsApp</a>
 						</div>
-					</section>
-					<br>
-					<input type="reset" value="Borrar formulario">
-					<input type="submit" value="Enviar formulario">
-
-				</form>
-			</div>
-		</section>
-	</main>
-	<br>
-	<footer>
-
-		<div class="container__footer">
-			<div class="box__footer">
-				<div class="logo">
-					<a href="../index.html"> <img src="../assets/imagenes/logo.jpg" alt="logo"> </a>
-					<p>QuilmesBox</p>
+					</div>
+	
+					<div clases="col-xs-12">
+						<p class="text-white text-center">Copyryght - All rights reserved 2022 </p>
+					</div>
+	
 				</div>
 			</div>
+		</footer>
 
-			<div class="box__footer">
-				<h2> Nuestro Gymnasio</h2>
-				<a href="./Empeza a entrenar.html"> Anotate </a>
-				<a href="./Instructivos.html"> Instructivos</a>
-				<a href="./Tienda.html"> Tienda</a>
-				<a href="./Nosotros.html"> Nosotros</a>
-			</div>
-
-			<div class="box__footer">
-				<h2>Redes sociales</h2>
-				<a href="https://facebook.com" target="_blank"> Facebook</a>
-				<a href="https://instagram.com" target="_blank"> Instagram</a>
-				<a href="https://youtube.com" target="_blank"> Youtube</a>
-				<a href="https://web.whatsapp.com" target="_blank"> WhatsApp</a>
-			</div>
-		</div>
-
-		<div class="box__copy">
-			<hr>
-			<p>Todos los Derechos Reservados 2022</p>
-			<p>Boxeo Quilmes</p>
-		</div>
-
-	</footer>
 </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init();
+</script>
+<script src="../js/bootstrap.bundle.min.js"></script>
 
 </html>

@@ -8,24 +8,61 @@
   <title>Boxeo Quilmes</title>
   <link rel="Icon" href="./assets/imagenes/logo.jpg">
   <link rel="stylesheet" href="./css/styles.css">
-
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/imagehover.min.css">
+  <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/412d1c795a.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
 </head>
 
 <body>
-  <header class="header">
-    <div class="logo">
-      <a href="./index.html"><img src="./assets/imagenes/logo.jpg" alt="Logo" width="100"></a>
-    </div>
-    <div>
-      <nav>
-        <ul class="navLinks">
-          <li> <a href="index.html"><b>Inicio</a></b> </li>
-          <li> <a href="./pages/Instructivos.html"><b>Instructivos</a></b></li>
-          <li> <a href="./pages/Tienda.html"><b>Tienda</a></b> </li>
-          <li> <a href="./pages/Nosotros.html"> <b>Nosotros</a> </b> </li>
-          <li> <a href="./pages/Empeza a entrenar.html"> <b>Empeza a entrenar</a></b> </li>
-        </ul>
-    </div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fondoNaranjita">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="./index.html">
+          <nav class="navbar navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./assets/imagenes/logo.jpg" alt="" width="50" height="50"
+                  class="d-inline-block align-text-top">
+                Boxeo Quilmes
+              </a>
+            </div>
+          </nav>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav black justify-content-around w-100">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/Tienda.html">
+                <p class="black "> Tienda </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/Nosotros.html">
+                <p class="black"> Nosotros </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/Instructivos.html">
+                <p class="black"> Instructivos </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/Empeza a entrenar.html">
+                <p class="black"> Empeza a entrenar </p>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
     </nav>
 
   </header>
@@ -33,153 +70,230 @@
   <main>
 
     <section>
+      <h1 class="letraTitulo animate__animated animate__rollIn">Boxeo Quilmes</h1>
+      <br>
+      <p class="fondoNaranjita white centrarTexto"> Empezá a entrenar con nosotros, el mejor entrenamiento al mejor
+        precio.
+        Boxeo Quilmes ofrece un servicio personalizado ofrecemos clases de boxeo
+        mixto para todas las edades.</p>
+    </section>
+    <hr class="white">
+    <section class="container my-5">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="./assets/imagenes/box-nueva-entrenando1.jpg" class="d-block w-75 mx-auto cover filtro"
+              alt="boxeo1">
+            <div class="container ">
+              <div class="carousel-caption text-center">
+                <h2 class="fuenteCarrusel">Tienda</h2>
+                <p>Encontra todos nuestros productos</p>
+                <p><a class="btn btn-lg bgBotonRosa text-white" href="./pages/Tienda.html">Leer Más</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item text-center">
+            <img src="./assets/imagenes/box-nueva-entrenando 2.jpg" class="d-block w-75 mx-auto cover filtro"
+              alt="boxeo2">
+            <div class="container ">
+              <div class="carousel-caption">
+                <h2 class="fuenteCarrusel">Nosotros</h2>
+                <p>Para saber mas de nosotros</p>
+                <p><a class="btn btn-lg bgBotonRosa text-white" href="./pages/Nosotros.html">Leer Más</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item text-center">
+            <img src="./assets/imagenes/box-nueva-entrenando 3.jpg" class="d-block w-75 mx-auto cover filtro"
+              alt="boxeo3">
+            <div class="container ">
+              <div class="carousel-caption">
+                <h2 class="fuenteCarrusel">Instructivos Basicos</h2>
+                <p>Aprende los golpes basicos de boxeo</p>
+                <p><a class="btn btn-lg bgBotonRosa text-white" href="./pages/Instructivos.html">Leer Más</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item text-center">
+            <img src="./assets/imagenes/box-nueva-entrenando5.jpg" class="d-block w-75 mx-auto cover filtro"
+              alt="boxeo4">
+            <div class="container ">
+              <div class="carousel-caption">
+                <h2 class="fuenteCarrusel">Empeza a entrenar</h2>
+                <p>Anotate y empeza a entrenar hoy!</p>
+                <p><a class="btn btn-lg bgBotonRosa text-white" href="./pages/Empeza a entrenar.html">Leer Más</a></p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+    <hr class="white">
+
+    <section class="text-center my-5">
+      <hr class="white">
       <div>
-        <h1 class="letraTitulo">Boxeo Quilmes</h1><br>
-        <p class="white centrarTexto"> Empezá a entrenar con nosotros, el mejor entrenamiento al mejor precio.
-          Boxeo Quilmes ofrece un servicio personalizado ofrecemos clases de boxeo
-          mixto para todas las edades.</p>
-      </div>
+        <h2 class="letraNaranjita" data-aos="fade-up">FORJANDO LEYENDAS DESDE 2010</h2>
+        <p data-aos="fade-down" data-aos-delay="800"> CLUB DE BOXEO EN QUILMES <br> <p>
+        </div>
+      <p> Superación, competición y deporte en su estado
+        más puro. En box quilmes llevamos 12 años entrenando a boxeadores, desde amateurs a profesionales,
+        y promocionando la cultura de la salud a través de la práctica y del boxeo.
+      </p>
+      <hr class="white">
     </section>
 
-    <section>
-      <div class="flex-container">
-        <div class="caja">
-          <a href="./pages/Instructivos.html"> <img src="./assets/imagenes/box-nueva-entrenando1.jpg"
-              alt="Instructivos"></a>
-          <p class="fondoNaranjita"> Instructivos de boxeo</p>
-        </div>
-        <div class="caja">
-          <a href="./pages/Tienda.html"> <img src="./assets/imagenes/box-nueva-entrenando 2.jpg" alt="tienda"></a>
-          <p class="fondoNaranjita"> Tienda</p>
-        </div>
-        <div class="caja">
-          <a href="./pages/Nosotros.html"> <img src="./assets/imagenes/box-nueva-entrenando 3.jpg" alt="nosotros"></a>
-          <p class="fondoNaranjita"> Mas info</p>
-        </div>
-        <div class="caja">
-          <a href="./pages/Empeza a entrenar.html"> <img src="./assets/imagenes/box-nueva-entrenando6.jpg"
-              alt="Empeza a entrenar"></a>
-          <p class="fondoNaranjita"> Empeza a entrenar</p>
-        </div>
-      </div>
-    </section>
+    <section class="container">
+     <div class="row">
+      <h2 class="letraNaranjita text-center" data-aos="fade-up-right" data-aos-delay="800">Nuestros Profesores:</h2>
+      <div class="card-group justify-content-center">
 
-    <section>
-      <div class="centrarTexto">
-        <h2 class="yellowText"> CLUB DE BOXEO </h2>
-        <p class="white">
-          <br>
-          Superación, competición y deporte en su estado más puro.
-          <br>
-          En Boxeo Quilmes llevamos 15 años
-          entrenando a boxeadores, desde amateurs a profesionales,
-          y promocionando la cultura de la salud a través de la práctica y del boxeo
-        </p>
-      </div>
-      <div>
-        <p class="centrarTexto white">
-          Somos especialistas en la práctica y entrenamiento de Boxeo y Crossfight. <br>
-          Si estás habituado a los aburridos entrenamientos y tablas de ejercicio de los gimnasios tradicionales,
-          esto será completamente nuevo para tí. El Crossfight es un sistema de entrenamiento 100% funcional que permite
-          un
-          trabajo físico en el que se desarrolla la fuerza, la resistencia, la agilidad y el equilibrio mediante la
-          combinación
-          de circuitos con diferente implementación. Este tipo de entrenamiento funcional procura un equilibrio físico
-          perfecto,
-          al desarrollarse de manera paralela tanto a nivel muscular como cardiovascular y respiratorio. <br> Si buscas
-          divertirte
-          practicando ejercicio y poniéndote en forma,
-          <a href="./pages/Tienda.html"> haz click aquí </a> e infórmate de nuestras tarifas.
-        </p><br>
-    </section>
-    </div>
-
-    <section>
-
-      <h2 class="yellowText centrarTexto"> Nuestros Profesores:</h2><br>
-
-      <div class="caja paddingBottom">
-        <div class="centerPadding">
-          <div>
-            <img src="./assets/imagenes/profesor 1.jpg" alt="profesor1">
-            <p class="fondoNaranjita letraGrande">Federico Palacio </p>
+        <div class="card " style="width: 18rem;">
+          <img src="./assets/imagenes/profesor 1.jpg" class="card-img-top filtro cover" alt="profe1">
+          <div class="card-body fondoCards">
+            <h3 class="black centrarTexto">Ricardo Ruben</h3>
             <ul class="centrarTexto white stylenone">
-              <li>Profesional de peso supergallo, con un record de 10 combates ganados y 0 perdidos.</li>
+              <li>Profesional de peso supergallo.</li>
               <li>Entrenador Personal</li>
               <li>Tecnico Superior en Nutricion Deportiva</li>
               <li>Fundador y propietario de Boxeo Quilmes.</li>
             </ul>
           </div>
         </div>
-      </div>
 
-      <div class="centerPadding">
-        <div>
-          <img src="./assets/imagenes/profesor 2.jpg" alt="profesor2">
-          <p class="fondoNaranjita letraGrande"> Marcos Castillo </p>
-          <ul class="centrarTexto white stylenone">
-            <li>Campeon Nacional Boxeo Profesional peso pluma</li>
-            <li>Entrenador Personal</li>
-            <li>Preparador Fisico de alto Rendimiento</li>
-            <li>Crossfit Trainer Level 2.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="centerPadding">
-        <div>
-          <div>
-            <img src="./assets/imagenes/profesor 3.jpg" alt="profesor3">
-          </div>
-          <p class="fondoNaranjita letraGrande"">Alexandra Chamorro</p>
-            <ul class=" centrarTexto white stylenone">
-            <li>Instructora Oficial de la OMS</li>
-            <li>Entrenadora Personal</li>
-            <li>Tecnica superior en estetica integral</li>
-            <li>Masajista Deportiva</li>
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/imagenes/profesor 2.jpg" class="card-img-top filtro cover" alt="profe2">
+          <div class="card-body fondoCards ">
+            <h3 class="black centrarTexto">Marcos Castillo</h3>
+            <ul class="centrarTexto white stylenone">
+              <li>Campeon Nacional Boxeo peso pluma</li>
+              <li>Entrenador Personal</li>
+              <li>Preparador Fisico de alto Rendimiento</li>
+              <li>Crossfit Trainer Level 2.</li>
             </ul>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/imagenes/profesor 3.jpg" class="card-img-top filtro cover" alt="profe3">
+          <div class="card-body fondoCards">
+            <h3 class="black centrarTexto">Alexandra chamorro</h3>
+            <ul class=" centrarTexto white stylenone">
+              <li>Instructora Oficial de la OMS</li>
+              <li>Entrenadora Personal</li>
+              <li>Tecnica superior en estetica integral</li>
+              <li>Masajista Deportiva</li>
+            </ul>
+          </div>
         </div>
       </div>
+    </div>
     </section>
+        <section class="container">
+        <div class="mt-5" >
+          <video autoplay muted loop class="w-block w-100 h-100 divVideo">
+            <source src="./assets/videos/ENTRENA_Boxeo.mp4" type="video/mp4">  
+        </video>
+      </section>
 
   </main>
 
+  <hr class="white">
+
   <footer>
+    <div class="container">
 
-    <div class="container__footer">
-      <div class="box__footer">
-        <div class="logo">
-          <a href="./index.html"> <img src="./assets/imagenes/logo.jpg" alt="logo"> </a>
-          <p>QuilmesBox</p>
+      <div class="row mt-5 text-white">
+
+        <div class="col-xs-12 col-md-12 col-lg-4">
+          <div class="container">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./assets/imagenes/logo.jpg" alt="" width="100" height="100">
+            </a>
+          </div>
+          <h3 class="letraNaranjita"> Boxeo Quilmes</h3>
+          <p class="letraNaranjita">Buenos Aires,Quilmes </p>
+          <a class="text-white text-decoration-none" href=""></a>
         </div>
-      </div>
 
-      <div class="box__footer">
-        <h2> Nuestro Gym ↓</h2>
-        <a href="./pages/Empeza a entrenar.html"> Anotate </a>
-        <a href="./pages/Instructivos.html"> Instructivos</a>
-        <a href="./pages/Tienda.html"> Tienda</a>
-        <a href="./pages/Nosotros.html"> Nosotros</a>
-      </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <h5 class="animate__animated animate__headShake animate__infinite mb-4 letraNaranjita">Nuestro Gymnasio</h5>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="./index.html">
+              <i class="fa-solid fa-house fabrandColor"></i>  Principal </a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="./pages/Tienda.html">
+              <i class="fa-solid fa-shop fabrandColor"></i> Tienda </a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="./pages/Instructivos.html">
+              <i class="fa-solid fa-crown fabrandColor"></i> Instructivos </a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="./pages/Empeza a entrenar.html">
+              <i class="fa-solid fa-trophy fabrandColor"></i> Empeza a entrenar </a>
+          </div>
+          <div class="mb-5">
+            <a class="text-white text-decoration-none" href="./pages/Nosotros.html">
+              <i class="fa-solid fa-heart fabrandColor"></i> Nosotros </a>
+          </div>
 
-      <div class="box__footer">
-        <h2>Redes sociales ↓</h2>
-        <a href="https://facebook.com" target="_blank"> Facebook</a>
-        <a href="https://instagram.com" target="_blank"> Instagram</a>
-        <a href="https://youtube.com" target="_blank"> Youtube</a>
-        <a href="https://web.whatsapp.com" target="_blank"> WhatsApp</a>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <h5 class="animate__animated animate__headShake animate__infinite mb-4 letraNaranjita">Redes Sociales</h5>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none " href="https://facebook.com" target="_blank">
+               <i class="fa-brands fa-square-facebook fabrandColor"></i> Facebook</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="https://instagram.com" target="_blank">
+               <i class="fa-brands fa-instagram fabrandColor"></i>  Instagram </a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="https://youtube.com" target="_blank">
+              <i class="fa-brands fa-youtube fabrandColor"></i> Youtube</a>
+          </div>
+          <div class="mb-5">
+            <a class="text-white text-decoration-none" href="https://web.whatsapp.com" target="_blank">
+               <i class="fa-brands fa-whatsapp fabrandColor"></i> WhatsApp</a>
+          </div>
+        </div>
+
+        <div clases="col-xs-12">
+          <p class="text-white text-center">Copyryght - All rights reserved 2022 </p>
+        </div>
+
       </div>
     </div>
-
-    <div class="box__copy">
-      <hr>
-      <p>Todos los Derechos Reservados 2022</p>
-      <p>Boxeo Quilmes</p>
-    </div>
-
-
   </footer>
 
 </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="./js/bootstrap.bundle.min.js"></script>
 
 </html>
