@@ -121,3 +121,13 @@ footer p {
 .bordeSito {
     border-style: solid;
 }
+
+
+
+
+
+@media (max-width: 575px) {
+    .letraTitulo {
+      font-size: 3rem;
+    }
+  }
