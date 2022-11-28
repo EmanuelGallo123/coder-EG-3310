@@ -10,7 +10,7 @@
 body {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.514),
             rgba(0, 0, 0, 0.411)),
-        url(../assets/imagenes/box\ 1440x1024.jpg);
+        url(../assets/imagenes/box\ fondo\ body.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
