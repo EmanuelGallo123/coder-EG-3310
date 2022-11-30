@@ -1,40 +1,14 @@
 @import "variables";
 @import "reset";
+@import "fonts";
+@import "mixins";
+@import "bucles";
+@import "body";
+@import "header";
+@import "main";
+@import "footer";
 
 /* tiene que quedar todo en imports */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: monospace 'Franklin Gothic Medium', 'Arial Narrow'
-        , Arial, sans-serif;
-}
-
-body {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.514),
-            rgba(0, 0, 0, 0.411)),
-        url(../assets/imagenes/box_fondo_body.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-
-h3 {
-    color: rgb(255, 255, 255);
-    font-family: 'Serigrafía';
-}
-
-body p {
-    color: white;
-}
-
-footer p {
-    color: rgb(255, 255, 255);
-}
-
 
 .centrarTexto {
     text-align: center;

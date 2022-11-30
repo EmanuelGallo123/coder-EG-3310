@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.514),
+            rgba(0, 0, 0, 0.411)),
+        url(../assets/imagenes/box_fondo_body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+body p {
+    color: white;
+}
