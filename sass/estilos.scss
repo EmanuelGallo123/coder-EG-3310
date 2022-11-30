@@ -1,5 +1,5 @@
 @import "variables";
-@import "reset" ;
+@import "reset";
 
 /* tiene que quedar todo en imports */
 
@@ -129,7 +129,6 @@ footer p {
 
 @media (max-width: 575px) {
     .letraTitulo {
-      font-size: 3rem;
+        font-size: 3rem;
     }
-  }
-
+}
