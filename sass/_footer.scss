@@ -3,3 +3,93 @@ footer p {
 }
 
 
+/*
+<footer>   FLEXBOX MODELING
+
+<div class="container__footer">
+  <div class="box__footer">
+    <div class="logo">
+      <a href="./index.html"> <img src="./assets/imagenes/logo.jpg" alt="logo"> </a>
+      <p>QuilmesBox</p>
+    </div>
+  </div>
+
+  <div class="box__footer">
+    <h2> Nuestro Gym ↓</h2>
+    <a href="./pages/Empeza a entrenar.html"> Anotate </a>
+    <a href="./pages/Instructivos.html"> Instructivos</a>
+    <a href="./pages/Tienda.html"> Tienda</a>
+    <a href="./pages/Nosotros.html"> Nosotros</a>
+  </div>
+
+  <div class="box__footer">
+    <h2>Redes sociales ↓</h2>
+    <a href="https://facebook.com" target="_blank"> Facebook</a>
+    <a href="https://instagram.com" target="_blank"> Instagram</a>
+    <a href="https://youtube.com" target="_blank"> Youtube</a>
+    <a href="https://web.whatsapp.com" target="_blank"> WhatsApp</a>
+  </div>
+</div>
+
+<div class="box__copy">
+  <hr>
+  <p>Todos los Derechos Reservados 2022</p>
+  <p>Boxeo Quilmes</p>
+</div>
+
+
+</footer>   
+
+
+  CSS DE  VIEJO FOOTER PARA ANIDAR FLEXBOX
+
+footer{
+    width: 100%;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.596)),
+    url(../assets/imagenes/box-nueva-entrenando8.jpg);
+    background-size: contain;
+    background-repeat:repeat;
+}
+
+.box__footer{
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+.box__footer .logo img{
+    width: 50px;
+    margin-bottom: 10px;
+
+}
+.box__footer .logo p{
+    font-size:small;
+    color: rgb(255, 240, 25);
+    margin-bottom: 10px;
+
+}
+
+.box__footer h2{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(251, 255, 30);
+}
+
+.box__footer a{
+    color:rgb(49, 255, 203);
+    font-size: 20px;  
+    text-decoration:solid,1px;
+    padding: 10px;
+}
+
+.box__copy{
+    text-align: center;
+    margin-top: 15px;
+}
+.box__copy p{
+    color: rgb(240, 255, 25);
+}
+
+   */
+   

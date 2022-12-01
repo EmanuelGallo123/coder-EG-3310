@@ -1,12 +1,6 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: monospace 'Franklin Gothic Medium', 'Arial Narrow'
- , Arial, sans-serif; }
-
-/* tiene que quedar todo en imports */
+/*maps*/
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dongle&family=Fjalla+One&family=Poppins:ital,wght@0,400;0,600;0,700;1,700&family=Roboto:wght@400;500&family=The+Nautigal:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -15,16 +9,10 @@
  , Arial, sans-serif; }
 
 body {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.514),
-   rgba(0, 0, 0, 0.411)),
-   url(../assets/imagenes/box_fondo_body.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.411)), url(../assets/imagenes/box_fondo_body.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
-
-h3 {
-  color: white;
-  font-family: 'Serigrafía'; }
 
 body p {
   color: white; }
@@ -74,7 +62,8 @@ footer p {
 
 .footerFondo {
   width: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.596)), url(../assets/imagenes/box-nueva-entrenando8.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.692),
+   rgba(0, 0, 0, 0.596)), url(../assets/imagenes/box-nueva-entrenando8.jpg);
   background-size: contain;
   background-repeat: repeat; }
 
