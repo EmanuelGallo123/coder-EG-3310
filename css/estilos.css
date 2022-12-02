@@ -5,14 +5,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: monospace 'Franklin Gothic Medium', 'Arial Narrow'
- , Arial, sans-serif; }
+  font-family: monospace 'Franklin Gothic Medium', 'Arial Narrow' , Arial, sans-serif; }
 
 body {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.411)), url(../assets/imagenes/box_fondo_body.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
+
+body p {
+  color: white; }
+
+.divVideo {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  filter: brightness(50%); }
+
+section.tituloprincipalIndex {
+  justify-content: center;
+  align-items: center; }
+  section.tituloprincipalIndex div.centrartextoIndex {
+    text-align: center; }
+    section.tituloprincipalIndex div.centrartextoIndex h1.letratituloIndex {
+      color: #fc501bbe;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: bolder;
+      font-size: 5rem;
+      font-style: italic;
+      text-align: center; }
+    section.tituloprincipalIndex div.centrartextoIndex p.whitecentrarTextoIndex {
+      color: white;
+      text-align: center; }
+    section.tituloprincipalIndex div.centrartextoIndex hr.whiteIndex {
+      color: white; }
+
+footer p {
+  color: white; }
+
+/* tiene que quedar todo en imports */
+body {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.411)), url(../assets/imagenes/box_fondo_body.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+h3 {
+  color: white;
+  font-family: 'Serigrafía'; }
 
 body p {
   color: white; }
@@ -62,8 +106,7 @@ footer p {
 
 .footerFondo {
   width: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.692),
-   rgba(0, 0, 0, 0.596)), url(../assets/imagenes/box-nueva-entrenando8.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.596)), url(../assets/imagenes/box-nueva-entrenando8.jpg);
   background-size: contain;
   background-repeat: repeat; }
 
@@ -76,18 +119,12 @@ footer p {
 .cover {
   object-fit: cover; }
 
-.divVideo {
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: -1;
-  filter: brightness(50%); }
-
 .bordeSito {
   border-style: solid; }
+
+.letraFooter {
+  font-size: 1.5rem;
+  color: #fc501bbe; }
 
 @media (max-width: 575px) {
   .letraTitulo {

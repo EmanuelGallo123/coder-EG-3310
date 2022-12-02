@@ -1,2 +1,36 @@
+.divVideo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+    filter: brightness(50%);
+}
 
+section.tituloprincipalIndex {
+        justify-content: center;
+        align-items: center;
 
+        div.centrartextoIndex{
+                text-align: center;
+
+            h1.letratituloIndex {
+                    color: #fc501bbe;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-weight: bolder;
+                    font-size: 5rem;
+                    font-style: italic;
+                    text-align: center;
+            }
+             p.whitecentrarTextoIndex {
+                color: white;
+                text-align: center;
+           } 
+           hr.whiteIndex{
+                color: white;
+           }
+
+        }
+    }
