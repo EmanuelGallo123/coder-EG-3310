@@ -2,8 +2,6 @@
 
 
 div.videofondoIndex{
-    margin-top: 3rem;
-
 video.divVideo {
     position: fixed;
     min-width: 100%;
@@ -33,9 +31,9 @@ section.tituloprincipalIndex {
                     font-style: italic;
                     text-align: center;
             }
-             p.whitecentrarTextoIndex {
-                color: white;
-                text-align: center;
+             h2.whitecentrarTextoIndex {
+                color: $colorprincipalWhite;
+                text-align: $text-align;
            } 
            hr.whiteIndex{
                 color: white;
@@ -43,4 +41,25 @@ section.tituloprincipalIndex {
 
         }
     }
+
+    .letraTitulo {
+        @include estiladosTitulo($colorprincipalNaranjita,$letraTitulo,$tituloWeight,$fontTitulos,$tituloStyle,$text-align);
+     }
+
+
+     section.instructivosDetalles{
+        div.container{
+            p.instructivosParrafo{
+                color: map-get($coloresPrincipales , blanco );
+            }
+            h3{
+            color: $backgroundNaranjita;
+            text-align: $text-align;}
+            
+            p{
+                color: map-get($coloresPrincipales , blanco);
+                text-align: map-get($estilos, centro );  
+            }
+        }
+     }
 

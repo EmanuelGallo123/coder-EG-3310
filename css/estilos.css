@@ -1,4 +1,4 @@
-/*maps*/
+/*maps - key -value */
 @import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dongle&family=Fjalla+One&family=Poppins:ital,wght@0,400;0,600;0,700;1,700&family=Roboto:wght@400;500&family=The+Nautigal:wght@700&display=swap");
 * {
   margin: 0;
@@ -15,19 +15,18 @@ body {
 body p {
   color: white; }
 
-div.videofondoIndex {
-  margin-top: 3rem; }
-  div.videofondoIndex video.divVideo {
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
-    filter: brightness(50%); }
-  div.videofondoIndex hr.whiteIndex {
-    color: white; }
+div.videofondoIndex video.divVideo {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  filter: brightness(50%); }
+
+div.videofondoIndex hr.whiteIndex {
+  color: white; }
 
 section.tituloprincipalIndex {
   justify-content: center;
@@ -41,11 +40,30 @@ section.tituloprincipalIndex {
       font-size: 5rem;
       font-style: italic;
       text-align: center; }
-    section.tituloprincipalIndex div.centrartextoIndex p.whitecentrarTextoIndex {
+    section.tituloprincipalIndex div.centrartextoIndex h2.whitecentrarTextoIndex {
       color: white;
       text-align: center; }
     section.tituloprincipalIndex div.centrartextoIndex hr.whiteIndex {
       color: white; }
+
+.letraTitulo {
+  color: #fc501bbe;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bolder;
+  font-size: 5rem;
+  font-style: italic;
+  text-align: center; }
+
+section.instructivosDetalles div.container p.instructivosParrafo {
+  color: white; }
+
+section.instructivosDetalles div.container h3 {
+  color: #fc501bbe;
+  text-align: center; }
+
+section.instructivosDetalles div.container p {
+  color: white;
+  text-align: center; }
 
 footer p {
   color: white; }
@@ -54,7 +72,7 @@ footer p {
   color: #ff9b18; }
 
 .letraFooter {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #fc501bbe; }
 
 @media (max-width: 575px) and (max-width: 575px) {
@@ -88,9 +106,6 @@ footer p {
 .fondoWhite {
   background-color: white; }
 
-.YellowText {
-  color: #e8ff15; }
-
 .white {
   color: white; }
 
@@ -105,12 +120,3 @@ footer p {
 
 .fondoNaranjita {
   background-color: #fc501bbe; }
-
-/* tiene que quedar todo en imports */
-.letraTitulo {
-  color: #fc501bbe;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: bolder;
-  font-size: 5rem;
-  font-style: italic;
-  text-align: center; }
