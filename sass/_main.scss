@@ -1,4 +1,10 @@
-.divVideo {
+
+
+
+div.videofondoIndex{
+    margin-top: 3rem;
+
+video.divVideo {
     position: fixed;
     min-width: 100%;
     min-height: 100%;
@@ -6,7 +12,10 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
-    filter: brightness(50%);
+    filter: brightness(50%);}
+    hr.whiteIndex{
+        color: white;
+   }
 }
 
 section.tituloprincipalIndex {
@@ -34,3 +43,4 @@ section.tituloprincipalIndex {
 
         }
     }
+

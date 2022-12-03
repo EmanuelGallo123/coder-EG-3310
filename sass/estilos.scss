@@ -6,70 +6,13 @@
 @import "header";
 @import "main";
 @import "footer";
+@import "mediaqueris";
+@import "estiladospropios";
+ 
 
 /* tiene que quedar todo en imports */
 
-body {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.514),
-            rgba(0, 0, 0, 0.411)),
-        url(../assets/imagenes/box_fondo_body.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-
-h3 {
-    color: rgb(255, 255, 255);
-    font-family: 'Serigrafía';
-}
-
-body p {
-    color: white;
-}
-
-footer p {
-    color: rgb(255, 255, 255);
-}
-
-
-.centrarTexto {
-    text-align: center;
-}
-
-.alinearTexto {
-    justify-content: center;
-    align-items: center;
-}
-
-.fondoWhite {
-    background-color: rgb(255, 255, 255);
-}
-
-.YellowText {
-    color: rgb(232, 255, 21);
-}
-
-.white {
-    color: rgb(255, 255, 255);
-
-}
-
-.black {
-    color: black;
-}
-
-.fondoCards {
-    background-color: #fc4f1b;
-}
-
-.letraNaranjita {
-    color: #fc501bbe;
-}
-
-.fondoNaranjita {
-    background-color: #fc501bbe;
-}
 
 .letraTitulo {
     color: #fc501bbe;
@@ -81,46 +24,4 @@ footer p {
 }
 
 
-.stylenone {
-    list-style: none;
-    text-decoration: none;
-}
 
-.footerFondo {
-    width: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.692),
-            rgba(0, 0, 0, 0.596)),
-        url(../assets/imagenes/box-nueva-entrenando8.jpg);
-    background-size: contain;
-    background-repeat: repeat;
-}
-
-.fabrandColor {
-
-    color: rgb(255, 155, 24);
-}
-
-.filtro {
-    filter: brightness(75%);
-}
-
-.cover {
-    object-fit: cover;
-}
-
-
-.bordeSito {
-    border-style: solid;
-}
-
-.letraFooter{
-    font-size: 1.5rem;
-    color: #fc501bbe;
-}
-
-
-@media (max-width: 575px) {
-    .letraTitulo {
-      font-size: 3rem;
-    }
-  }

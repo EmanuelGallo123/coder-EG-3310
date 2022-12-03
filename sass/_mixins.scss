@@ -1,77 +1,16 @@
 
-@mixin mixinHeight{
-    height: 500px;
-    width: 500px;
-    background-color: $bg-color-green;
-    border: $borde;
-}
-
-@mixin flex-row-center{
-	display:flex;
-	flex-direction:row;
-	justify-content:center;
-}
-
-@mixin flex-column-center{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-}
-
-@mixin flex-direction-center($direction){
-    display:flex;
-    flex-direction:$direction;
-    justify-content:center;
-}
-@mixin flex-direction-justificar($direction,$justify:$center){
-    display:flex;
-    flex-direction:$direction;
-    justify-content:$justify;
-}
-
-@mixin grid-columns-row($columns,$row){
-    display:grid;
-    grid-template-columns:repeat($columns, 1fr);
-    grid-template-rows:repeat($row, 1fr);
-}
-
-
-
-@mixin miMixin2($valor,$borde-principal,$color:rgb(243, 86, 112)){
-    height:$valor;
-    background-color: aqua;
-    border:$borde-principal;
-    color:$color;
-}
-
-
-@mixin redes($nombre){
-
-    @if $nombre == instagram{
-        color:#ff00ea;
-
-    }@else if $nombre == facebook{
-        color:blue;
-    }@else if $nombre == tiktok{
-        color:rgb(231, 33, 33);
-    }@else { /*si no se cumple ninguna de las condiciones de arriba, entonces...*/
-        color:rgba(0, 0, 0, 0.336);
-    }
-
-}
-
-@mixin contenedor_grid($bgcolor,$justify,$aling){
-    background-color:$bgcolor;
-    display: grid;
-    justify-content: $justify;
-    align-items: $aling;
-}
-
 @mixin alineacion-flex($justify,$text-aling) {
     justify-content: $justify;
     text-align: $text-align;
 }
 
 
+@mixin estiladosTitulo($color,$font,$grosor,$anchoFuente,$style,$align){
+    color: $color;
+    font-family: $font;
+    font-weight: $grosor;
+    font-size: $anchoFuente;
+    font-style: $style;
+    text-align: $align;
 
-
+}

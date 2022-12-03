@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*maps*/
 @import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dongle&family=Fjalla+One&family=Poppins:ital,wght@0,400;0,600;0,700;1,700&family=Roboto:wght@400;500&family=The+Nautigal:wght@700&display=swap");
 * {
@@ -16,15 +15,19 @@ body {
 body p {
   color: white; }
 
-.divVideo {
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: -1;
-  filter: brightness(50%); }
+div.videofondoIndex {
+  margin-top: 3rem; }
+  div.videofondoIndex video.divVideo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+    filter: brightness(50%); }
+  div.videofondoIndex hr.whiteIndex {
+    color: white; }
 
 section.tituloprincipalIndex {
   justify-content: center;
@@ -47,22 +50,33 @@ section.tituloprincipalIndex {
 footer p {
   color: white; }
 
-/* tiene que quedar todo en imports */
-body {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.411)), url(../assets/imagenes/box_fondo_body.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; }
+.fabrandColor {
+  color: #ff9b18; }
 
-h3 {
-  color: white;
-  font-family: 'Serigrafía'; }
+.letraFooter {
+  font-size: 1.5rem;
+  color: #fc501bbe; }
 
-body p {
-  color: white; }
+@media (max-width: 575px) and (max-width: 575px) {
+  section.tituloprincipalIndex div.centrartextoIndex h1.letratituloIndex {
+    font-size: 3rem; } }
 
-footer p {
-  color: white; }
+@media (max-width: 575px) and (max-width: 575px) {
+  section.tituloPaginas div h1.letraTitulo {
+    font-size: 3rem; } }
+
+.stylenone {
+  list-style: none;
+  text-decoration: none; }
+
+.filtro {
+  filter: brightness(75%); }
+
+.cover {
+  object-fit: cover; }
+
+.bordeSito {
+  border-style: solid; }
 
 .centrarTexto {
   text-align: center; }
@@ -92,6 +106,7 @@ footer p {
 .fondoNaranjita {
   background-color: #fc501bbe; }
 
+/* tiene que quedar todo en imports */
 .letraTitulo {
   color: #fc501bbe;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -99,33 +114,3 @@ footer p {
   font-size: 5rem;
   font-style: italic;
   text-align: center; }
-
-.stylenone {
-  list-style: none;
-  text-decoration: none; }
-
-.footerFondo {
-  width: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.596)), url(../assets/imagenes/box-nueva-entrenando8.jpg);
-  background-size: contain;
-  background-repeat: repeat; }
-
-.fabrandColor {
-  color: #ff9b18; }
-
-.filtro {
-  filter: brightness(75%); }
-
-.cover {
-  object-fit: cover; }
-
-.bordeSito {
-  border-style: solid; }
-
-.letraFooter {
-  font-size: 1.5rem;
-  color: #fc501bbe; }
-
-@media (max-width: 575px) {
-  .letraTitulo {
-    font-size: 3rem; } }

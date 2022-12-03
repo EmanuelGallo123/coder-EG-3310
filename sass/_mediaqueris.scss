@@ -1,0 +1,26 @@
+@media (max-width: 575px) {
+  section.tituloprincipalIndex {
+    div.centrartextoIndex {
+      h1.letratituloIndex {
+        @media (max-width: 575px) {
+          font-size: 3rem;
+
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 575px) {
+  section.tituloPaginas {
+    div{
+      h1.letraTitulo {
+        @media (max-width: 575px) {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
