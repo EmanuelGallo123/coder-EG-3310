@@ -54,6 +54,9 @@ section.tituloprincipalIndex {
   font-style: italic;
   text-align: center; }
 
+section.instructivosDetalles div.container h3.intrucBoxeo {
+  text-align: center; }
+
 section.instructivosDetalles div.container p.instructivosParrafo {
   color: white; }
 
@@ -63,7 +66,8 @@ section.instructivosDetalles div.container h3 {
 
 section.instructivosDetalles div.container p {
   color: white;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 3rem; }
 
 footer p {
   color: white; }

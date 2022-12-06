@@ -49,6 +49,9 @@ section.tituloprincipalIndex {
 
      section.instructivosDetalles{
         div.container{
+            h3.intrucBoxeo{
+                text-align: $center;
+            }
             p.instructivosParrafo{
                 color: map-get($coloresPrincipales , blanco );
             }
@@ -58,7 +61,8 @@ section.tituloprincipalIndex {
             
             p{
                 color: map-get($coloresPrincipales , blanco);
-                text-align: map-get($estilos, centro );  
+                text-align: map-get($estilos, centro ); 
+                margin-bottom: map-get($estilos , 3rem ); 
             }
         }
      }
