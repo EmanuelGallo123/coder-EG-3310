@@ -4,7 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: monospace 'Franklin Gothic Medium', 'Arial Narrow' , Arial, sans-serif; }
+  font-family: monospace 'Franklin Gothic Medium', 'Arial Narrow'
+ , Arial, sans-serif; }
 
 body {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.411)), url(../assets/imagenes/box_fondo_body.jpg);
