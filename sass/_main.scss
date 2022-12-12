@@ -1,69 +1,72 @@
+div.videofondoIndex {
+    video.divVideo {
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: -1;
+        filter: brightness(50%);
+    }
 
-
-
-div.videofondoIndex{
-video.divVideo {
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
-    filter: brightness(50%);}
-    hr.whiteIndex{
+    hr.whiteIndex {
         color: white;
-   }
+    }
 }
 
 section.tituloprincipalIndex {
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 
-        div.centrartextoIndex{
-                text-align: center;
+    div.centrartextoIndex {
+        text-align: center;
 
-            h1.letratituloIndex {
-                    color: #fc501bbe;
-                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                    font-weight: bolder;
-                    font-size: 5rem;
-                    font-style: italic;
-                    text-align: center;
-            }
-             h2.whitecentrarTextoIndex {
-                color: $colorprincipalWhite;
-                text-align: $text-align;
-           } 
-           hr.whiteIndex{
-                color: white;
-           }
+        h1.letratituloIndex {
+            color: #fc501bbe;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: bolder;
+            font-size: 5rem;
+            font-style: italic;
+            text-align: center;
+        }
 
+        h2.whitecentrarTextoIndex {
+            color: $colorprincipalWhite;
+            text-align: $text-align;
+        }
+
+        hr.whiteIndex {
+            color: white;
+        }
+
+    }
+}
+
+.letraTitulo {
+    @include estiladosTitulo($colorprincipalNaranjita, $letraTitulo, $tituloWeight, $fontTitulos, $tituloStyle, $text-align);
+}
+
+
+section.instructivosDetalles {
+    div.container {
+        h3.intrucBoxeo {
+            text-align: $center;
+        }
+
+        p.instructivosParrafo {
+            color: map-get($coloresPrincipales , blanco);
+        }
+
+        h3 {
+            color: $backgroundNaranjita;
+            text-align: $text-align;
+        }
+
+        p {
+            color: map-get($coloresPrincipales , blanco);
+            text-align: map-get($estilos, centro);
+            margin-bottom: map-get($estilos , 3rem);
         }
     }
-
-    .letraTitulo {
-        @include estiladosTitulo($colorprincipalNaranjita,$letraTitulo,$tituloWeight,$fontTitulos,$tituloStyle,$text-align);
-     }
-
-
-     section.instructivosDetalles{
-        div.container{
-            h3.intrucBoxeo{
-                text-align: $center;
-            }
-            p.instructivosParrafo{
-                color: map-get($coloresPrincipales , blanco );
-            }
-            h3{
-            color: $backgroundNaranjita;
-            text-align: $text-align;}
-            
-            p{
-                color: map-get($coloresPrincipales , blanco);
-                text-align: map-get($estilos, centro ); 
-                margin-bottom: map-get($estilos , 3rem ); 
-            }
-        }
-     }
-
+}
